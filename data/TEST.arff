@@ -1,0 +1,15 @@
+@relation TEST
+
+@attribute A1 {a2,a1}
+@attribute A2 {b2,b1}
+@attribute A3 {c1,c2,c3}
+@attribute A4 {d3,d2,d1}
+@attribute A5 {e1,e3,e2}
+@attribute Class {A,B,C}
+
+@data
+a2,b2,c1,d3,e1,A
+a1,b2,c1,d2,e3,B
+a1,b1,c1,d1,e2,A
+a1,b2,c3,d3,e1,C
+a1,b2,c1,d3,e1,C
